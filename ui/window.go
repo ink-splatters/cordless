@@ -20,8 +20,8 @@ import (
 	"github.com/ink-splatters/cordless/util/text"
 	"github.com/ink-splatters/cordless/version"
 
-	"github.com/ink-splatters/discordemojimap"
-	"github.com/ink-splatters/goclipimg"
+	"github.com/Bios-Marcel/discordemojimap"
+	"github.com/Bios-Marcel/goclipimg"
 
 	"github.com/atotto/clipboard"
 

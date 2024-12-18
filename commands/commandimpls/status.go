@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ink-splatters/discordemojimap"
+	"github.com/Bios-Marcel/discordemojimap"
 	"github.com/ink-splatters/discordgo"
 
 	"github.com/ink-splatters/cordless/config"

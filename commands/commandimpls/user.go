@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ink-splatters/discordemojimap"
+	"github.com/Bios-Marcel/discordemojimap"
 
 	"github.com/ink-splatters/discordgo"
 
