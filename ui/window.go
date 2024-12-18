@@ -13,35 +13,35 @@ import (
 	"github.com/mdp/qrterminal/v3"
 	"github.com/skratchdot/open-golang/open"
 
-	"github.com/Bios-Marcel/cordless/fileopen"
-	"github.com/Bios-Marcel/cordless/logging"
-	"github.com/Bios-Marcel/cordless/util/files"
-	"github.com/Bios-Marcel/cordless/util/fuzzy"
-	"github.com/Bios-Marcel/cordless/util/text"
-	"github.com/Bios-Marcel/cordless/version"
+	"github.com/ink-splatters/cordless/fileopen"
+	"github.com/ink-splatters/cordless/logging"
+	"github.com/ink-splatters/cordless/util/files"
+	"github.com/ink-splatters/cordless/util/fuzzy"
+	"github.com/ink-splatters/cordless/util/text"
+	"github.com/ink-splatters/cordless/version"
 
-	"github.com/Bios-Marcel/discordemojimap"
-	"github.com/Bios-Marcel/goclipimg"
+	"github.com/ink-splatters/discordemojimap"
+	"github.com/ink-splatters/goclipimg"
 
 	"github.com/atotto/clipboard"
 
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/discordgo"
 	tcell "github.com/gdamore/tcell/v2"
 	"github.com/gen2brain/beeep"
 
-	"github.com/Bios-Marcel/cordless/tview"
+	"github.com/ink-splatters/cordless/tview"
 
-	"github.com/Bios-Marcel/cordless/commands"
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/discordutil"
-	"github.com/Bios-Marcel/cordless/readstate"
-	"github.com/Bios-Marcel/cordless/scripting"
-	"github.com/Bios-Marcel/cordless/scripting/js"
-	"github.com/Bios-Marcel/cordless/shortcuts"
-	"github.com/Bios-Marcel/cordless/ui/components"
-	"github.com/Bios-Marcel/cordless/ui/shortcutdialog"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
-	"github.com/Bios-Marcel/cordless/util/maths"
+	"github.com/ink-splatters/cordless/commands"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/discordutil"
+	"github.com/ink-splatters/cordless/readstate"
+	"github.com/ink-splatters/cordless/scripting"
+	"github.com/ink-splatters/cordless/scripting/js"
+	"github.com/ink-splatters/cordless/shortcuts"
+	"github.com/ink-splatters/cordless/ui/components"
+	"github.com/ink-splatters/cordless/ui/shortcutdialog"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/util/maths"
 )
 
 var (
@@ -2274,7 +2274,7 @@ func (window *Window) toggleUserContainer() {
 	config.Current.ShowUserContainer = !config.Current.ShowUserContainer
 	config.PersistConfig()
 	window.updateUserList()
-	//Solves https://github.com/Bios-Marcel/cordless/issues/246
+	//Solves https://github.com/ink-splatters/cordless/issues/246
 	window.chatView.Reprint()
 }
 

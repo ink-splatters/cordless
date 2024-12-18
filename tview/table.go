@@ -208,7 +208,7 @@ func (c *TableCell) GetLastPosition() (x, y, width int) {
 //
 // Use SetInputCapture() to override or modify keyboard input.
 //
-// See https://github.com/Bios-Marcel/cordless/tview/wiki/Table for an example.
+// See https://github.com/ink-splatters/cordless/tview/wiki/Table for an example.
 type Table struct {
 	*Box
 

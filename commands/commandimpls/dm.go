@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Bios-Marcel/cordless/discordutil"
-	"github.com/Bios-Marcel/cordless/ui"
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/cordless/discordutil"
+	"github.com/ink-splatters/cordless/ui"
+	"github.com/ink-splatters/discordgo"
 )
 
 const (

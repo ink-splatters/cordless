@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
 )
 
 // Command represents a command that is executable by the user.

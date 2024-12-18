@@ -5,10 +5,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Bios-Marcel/discordemojimap"
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/discordemojimap"
+	"github.com/ink-splatters/discordgo"
 
-	"github.com/Bios-Marcel/cordless/commands"
+	"github.com/ink-splatters/cordless/commands"
 )
 
 type NickSetCmd struct {

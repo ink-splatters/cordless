@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/discordgo"
 
-	"github.com/Bios-Marcel/cordless/readstate"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/readstate"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
 )
 
 // SortMessagesByTimestamp sorts all messages in the given array according to

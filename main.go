@@ -8,12 +8,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/Bios-Marcel/cordless/app"
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/logging"
-	"github.com/Bios-Marcel/cordless/tview"
-	"github.com/Bios-Marcel/cordless/ui/shortcutdialog"
-	"github.com/Bios-Marcel/cordless/version"
+	"github.com/ink-splatters/cordless/app"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/logging"
+	"github.com/ink-splatters/cordless/tview"
+	"github.com/ink-splatters/cordless/ui/shortcutdialog"
+	"github.com/ink-splatters/cordless/version"
 )
 
 func main() {

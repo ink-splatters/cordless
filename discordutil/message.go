@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/discordgo"
 
-	"github.com/Bios-Marcel/cordless/times"
-	"github.com/Bios-Marcel/cordless/util/files"
+	"github.com/ink-splatters/cordless/times"
+	"github.com/ink-splatters/cordless/util/files"
 )
 
 // MentionsCurrentUserExplicitly checks whether the message contains any

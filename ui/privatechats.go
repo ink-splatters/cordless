@@ -6,14 +6,14 @@ import (
 
 	tcell "github.com/gdamore/tcell/v2"
 
-	"github.com/Bios-Marcel/cordless/discordutil"
-	"github.com/Bios-Marcel/cordless/readstate"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/discordutil"
+	"github.com/ink-splatters/cordless/readstate"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
 
-	"github.com/Bios-Marcel/cordless/tview"
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/cordless/tview"
+	"github.com/ink-splatters/discordgo"
 
-	"github.com/Bios-Marcel/cordless/config"
+	"github.com/ink-splatters/cordless/config"
 )
 
 type privateChannelState int

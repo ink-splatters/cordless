@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Bios-Marcel/cordless/tview"
+	"github.com/ink-splatters/cordless/tview"
 	tcell "github.com/gdamore/tcell/v2"
 
-	"github.com/Bios-Marcel/cordless/config"
+	"github.com/ink-splatters/cordless/config"
 )
 
 func main() {

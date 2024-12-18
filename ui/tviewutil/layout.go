@@ -1,6 +1,6 @@
 package tviewutil
 
-import "github.com/Bios-Marcel/cordless/tview"
+import "github.com/ink-splatters/cordless/tview"
 
 func CreateCenteredComponent(component tview.Primitive, width int) tview.Primitive {
 	padding := tview.NewFlex().SetDirection(tview.FlexColumn)

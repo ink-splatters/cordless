@@ -3,8 +3,8 @@ package components
 import (
 	"sync"
 
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/tview"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/tview"
 	tcell "github.com/gdamore/tcell/v2"
 	"github.com/mattn/go-runewidth"
 	"github.com/rivo/uniseg"

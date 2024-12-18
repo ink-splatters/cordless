@@ -5,10 +5,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Bios-Marcel/cordless/commands"
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/ui"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/commands"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/ui"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
 )
 
 const accountDocumentation = `[orange][::u]# account command[white]

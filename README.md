@@ -23,7 +23,7 @@ https://discord.gg/fxFqszu
 - [Similar projects](#similar-projects)
 - [Credits](#credits)
 
-**WARNING: Third party clients are discouraged and against the Discord TOS. There have already been cordless users that got banned, including me (Bios-Marcel, the maker and maintainer)**
+**WARNING: Third party clients are discouraged and against the Discord TOS. There have already been cordless users that got banned, including me (ink-splatters, the maker and maintainer)**
 
 Cordless is a custom [Discord](https://discord.com/app) client that aims to
 have a low memory footprint and be aimed at power-users.
@@ -42,7 +42,7 @@ If you don't want to build the application yourself or use some kind of
 package management system, you can get the latest binaries for the three
 major systems in the release overview:
 
-https://github.com/Bios-Marcel/cordless/releases/latest
+https://github.com/ink-splatters/cordless/releases/latest
 
 ### Building from source
 
@@ -56,7 +56,7 @@ https://git-scm.com/downloads.
 Open a command line and execute the following commands:
 
 ```shell
-git clone https://github.com/Bios-Marcel/cordless.git
+git clone https://github.com/ink-splatters/cordless.git
 cd cordless
 go build
 ```
@@ -87,7 +87,7 @@ Logging in works via the UI on first startup of the application.
 If you are logging in with a bot token, you have to prepend `Bot` in front of
 the token.
 
-If you need to find out how to retrieve your token, check [the wiki](https://github.com/Bios-Marcel/cordless/wiki/Retrieving-your-token).
+If you need to find out how to retrieve your token, check [the wiki](https://github.com/ink-splatters/cordless/wiki/Retrieving-your-token).
 
 **Currently captcha-code login isn't supported. Thanks for your SHIT-API, Google**
 
@@ -111,7 +111,7 @@ changer via <kbd>Ctrl</kbd> + <kbd>K</kbd>.
 
 ## Extending Cordless via the scripting interface
 
-[Check the wiki](https://github.com/Bios-Marcel/cordless/wiki/Extending-Cordless-via-the-scripting-interface)
+[Check the wiki](https://github.com/ink-splatters/cordless/wiki/Extending-Cordless-via-the-scripting-interface)
 
 ## Troubleshooting
 
@@ -120,7 +120,7 @@ the projects GitHub issue tracker. Bugs reported via Discord will probably
 be forgotten or overseen.
 
 For general problems faced by cordless users, check out the wiki at:
-https://github.com/Bios-Marcel/cordless/wiki/Troubleshooting
+https://github.com/ink-splatters/cordless/wiki/Troubleshooting
 
 If you need help or have questions that you don't want to create an issue
 for, just join our Discord server: https://discord.gg/fxFqszu
@@ -129,7 +129,7 @@ for, just join our Discord server: https://discord.gg/fxFqszu
 
 In order to find answers to common questions, check out the FAQ in the wiki:
 
-https://github.com/Bios-Marcel/cordless/wiki/FAQ
+https://github.com/ink-splatters/cordless/wiki/FAQ
 
 ## This project isn't for you, if
 

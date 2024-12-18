@@ -6,15 +6,15 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Bios-Marcel/cordless/tview"
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/cordless/tview"
+	"github.com/ink-splatters/discordgo"
 
-	"github.com/Bios-Marcel/cordless/commands/commandimpls"
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/readstate"
-	"github.com/Bios-Marcel/cordless/shortcuts"
-	"github.com/Bios-Marcel/cordless/ui"
-	"github.com/Bios-Marcel/cordless/version"
+	"github.com/ink-splatters/cordless/commands/commandimpls"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/readstate"
+	"github.com/ink-splatters/cordless/shortcuts"
+	"github.com/ink-splatters/cordless/ui"
+	"github.com/ink-splatters/cordless/version"
 )
 
 // SetupApplicationWithAccount launches the whole application and might

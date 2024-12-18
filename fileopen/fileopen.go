@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Bios-Marcel/cordless/commands"
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/util/files"
+	"github.com/ink-splatters/cordless/commands"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/util/files"
 	"github.com/skratchdot/open-golang/open"
 )
 

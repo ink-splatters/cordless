@@ -311,7 +311,7 @@ func (n *TreeNode) SetIndent(indent int) *TreeNode {
 // using SetPrefixes() for different levels, for example to display hierarchical
 // bullet point lists.
 //
-// See https://github.com/Bios-Marcel/cordless/tview/wiki/TreeView for an example.
+// See https://github.com/ink-splatters/cordless/tview/wiki/TreeView for an example.
 type TreeView struct {
 	*Box
 

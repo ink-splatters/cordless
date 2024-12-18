@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/Bios-Marcel/cordless/config"
+	"github.com/ink-splatters/cordless/config"
 )
 
 func init() {

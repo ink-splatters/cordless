@@ -6,7 +6,7 @@ import (
 	"time"
 
 	tcell "github.com/gdamore/tcell/v2"
-	"github.com/Bios-Marcel/cordless/tview"
+	"github.com/ink-splatters/cordless/tview"
 )
 
 const textView1 = `[green]func[white] [yellow]main[white]() {
@@ -60,7 +60,7 @@ const textView2 = `[green]package[white] main
     [red]"strconv"[white]
 
     [red]tcell "github.com/gdamore/tcell/v2"[white]
-    [red]"github.com/Bios-Marcel/cordless/tview"[white]
+    [red]"github.com/ink-splatters/cordless/tview"[white]
 )
 
 [green]func[white] [yellow]main[white]() {

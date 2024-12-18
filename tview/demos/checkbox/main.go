@@ -1,7 +1,7 @@
 // Demo code for the Checkbox primitive.
 package main
 
-import "github.com/Bios-Marcel/cordless/tview"
+import "github.com/ink-splatters/cordless/tview"
 
 func main() {
 	app := tview.NewApplication()

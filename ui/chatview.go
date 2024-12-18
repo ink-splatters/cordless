@@ -10,20 +10,20 @@ import (
 	"strings"
 	"sync"
 
-	linkshortener "github.com/Bios-Marcel/shortnotforlong"
+	linkshortener "github.com/ink-splatters/shortnotforlong"
 	tcell "github.com/gdamore/tcell/v2"
 
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/discordutil"
-	"github.com/Bios-Marcel/cordless/shortcuts"
-	"github.com/Bios-Marcel/cordless/times"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/discordutil"
+	"github.com/ink-splatters/cordless/shortcuts"
+	"github.com/ink-splatters/cordless/times"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
 
-	"github.com/Bios-Marcel/cordless/tview"
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/cordless/tview"
+	"github.com/ink-splatters/discordgo"
 
 	// Blank import for initializing the tview formatter
-	_ "github.com/Bios-Marcel/cordless/syntax"
+	_ "github.com/ink-splatters/cordless/syntax"
 
 	"github.com/alecthomas/chroma"
 	"github.com/alecthomas/chroma/formatters"

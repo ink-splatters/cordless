@@ -15,12 +15,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/discordgo"
 
 	"github.com/pkg/errors"
 	"github.com/robertkrimen/otto"
 
-	"github.com/Bios-Marcel/cordless/scripting"
+	"github.com/ink-splatters/cordless/scripting"
 )
 
 var (

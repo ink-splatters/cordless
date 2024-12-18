@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Bios-Marcel/cordless/tview"
+	"github.com/ink-splatters/cordless/tview"
 )
 
 // The width of the code window.

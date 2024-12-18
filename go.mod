@@ -1,12 +1,12 @@
-module github.com/Bios-Marcel/cordless
+module github.com/ink-splatters/cordless
 
 go 1.12
 
 require (
-	github.com/Bios-Marcel/discordemojimap v1.0.1
-	github.com/Bios-Marcel/discordgo v0.21.2-0.20201025194456-7046b5509389
-	github.com/Bios-Marcel/goclipimg v0.0.0-20191117180634-d0f7b06fbe82
-	github.com/Bios-Marcel/shortnotforlong v1.1.1
+	github.com/ink-splatters/discordemojimap v1.0.1
+	github.com/ink-splatters/discordgo v0.21.2-0.20201025194456-7046b5509389
+	github.com/ink-splatters/goclipimg v0.0.0-20191117180634-d0f7b06fbe82
+	github.com/ink-splatters/shortnotforlong v1.1.1
 	github.com/alecthomas/chroma v0.7.3
 	github.com/atotto/clipboard v0.1.2
 	github.com/gdamore/tcell/v2 v2.0.0

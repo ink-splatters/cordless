@@ -15,7 +15,7 @@ type frameText struct {
 // Frame is a wrapper which adds a border around another primitive. The top area
 // (header) and the bottom area (footer) may also contain text.
 //
-// See https://github.com/Bios-Marcel/cordless/tview/wiki/Frame for an example.
+// See https://github.com/ink-splatters/cordless/tview/wiki/Frame for an example.
 type Frame struct {
 	*Box
 

@@ -4,14 +4,14 @@ import (
 	"errors"
 	"os"
 
-	"github.com/Bios-Marcel/cordless/shortcuts"
-	"github.com/Bios-Marcel/cordless/tview"
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/cordless/shortcuts"
+	"github.com/ink-splatters/cordless/tview"
+	"github.com/ink-splatters/discordgo"
 	"github.com/atotto/clipboard"
 	tcell "github.com/gdamore/tcell/v2"
 
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
-	"github.com/Bios-Marcel/cordless/util/text"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/util/text"
 )
 
 const splashText = `
@@ -327,7 +327,7 @@ func (login *Login) showPasswordLogin() {
 func (login *Login) showTokenLogin() {
 	login.showView(login.tokenInputView, 3)
 	login.app.SetFocus(login.tokenInput)
-	login.messageText.SetText("Prepend 'Bot ' for bot tokens.\n\nFor information on how to retrieve your token, check:\nhttps://github.com/Bios-Marcel/cordless/wiki/Retrieving-your-token\n\nToken input is hidden by default, toggle with Ctrl + R.")
+	login.messageText.SetText("Prepend 'Bot ' for bot tokens.\n\nFor information on how to retrieve your token, check:\nhttps://github.com/ink-splatters/cordless/wiki/Retrieving-your-token\n\nToken input is hidden by default, toggle with Ctrl + R.")
 }
 
 func (login *Login) showView(view tview.Primitive, size int) {

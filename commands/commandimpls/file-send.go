@@ -11,13 +11,13 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/discordgo"
 
-	"github.com/Bios-Marcel/cordless/commands"
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/ui"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
-	"github.com/Bios-Marcel/cordless/util/files"
+	"github.com/ink-splatters/cordless/commands"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/ui"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/util/files"
 )
 
 const fileSendDocumentation = `[::b]NAME

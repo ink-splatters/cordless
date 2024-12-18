@@ -2,7 +2,7 @@ package main
 
 import (
 	tcell "github.com/gdamore/tcell/v2"
-	"github.com/Bios-Marcel/cordless/tview"
+	"github.com/ink-splatters/cordless/tview"
 )
 
 // Flex demonstrates flexbox layout.

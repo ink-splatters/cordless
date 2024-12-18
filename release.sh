@@ -140,7 +140,7 @@ fi
 # download the latest tarball in order to get its sha256 sum.
 #
 
-wget https://github.com/Bios-Marcel/cordless/archive/$RELEASE_DATE.tar.gz
+wget https://github.com/ink-splatters/cordless/archive/$RELEASE_DATE.tar.gz
 TAR_HASH="$(sha256sum ./$RELEASE_DATE.tar.gz | cut -f 1 -d " ")"
 export TAR_HASH
 rm ./$RELEASE_DATE.tar.gz

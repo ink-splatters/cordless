@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Bios-Marcel/discordemojimap"
-	"github.com/Bios-Marcel/discordgo"
+	"github.com/ink-splatters/discordemojimap"
+	"github.com/ink-splatters/discordgo"
 
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
 )
 
 const (

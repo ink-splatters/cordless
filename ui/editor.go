@@ -3,14 +3,14 @@ package ui
 import (
 	"unicode"
 
-	"github.com/Bios-Marcel/cordless/tview"
+	"github.com/ink-splatters/cordless/tview"
 	"github.com/atotto/clipboard"
 	tcell "github.com/gdamore/tcell/v2"
 
-	"github.com/Bios-Marcel/cordless/config"
-	"github.com/Bios-Marcel/cordless/femto"
-	"github.com/Bios-Marcel/cordless/shortcuts"
-	"github.com/Bios-Marcel/cordless/ui/tviewutil"
+	"github.com/ink-splatters/cordless/config"
+	"github.com/ink-splatters/cordless/femto"
+	"github.com/ink-splatters/cordless/shortcuts"
+	"github.com/ink-splatters/cordless/ui/tviewutil"
 )
 
 // Editor is a simple component that wraps tview.TextView in order to give

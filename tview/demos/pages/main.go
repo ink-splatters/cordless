@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Bios-Marcel/cordless/tview"
+	"github.com/ink-splatters/cordless/tview"
 )
 
 const pageCount = 5

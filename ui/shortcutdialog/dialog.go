@@ -3,9 +3,9 @@ package shortcutdialog
 import (
 	"log"
 
-	"github.com/Bios-Marcel/cordless/shortcuts"
-	"github.com/Bios-Marcel/cordless/tview"
-	"github.com/Bios-Marcel/cordless/ui/components"
+	"github.com/ink-splatters/cordless/shortcuts"
+	"github.com/ink-splatters/cordless/tview"
+	"github.com/ink-splatters/cordless/ui/components"
 	tcell "github.com/gdamore/tcell/v2"
 )
 
